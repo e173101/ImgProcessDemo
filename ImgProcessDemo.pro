@@ -24,4 +24,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 INCLUDEPATH += C:/OpenCV/2.4.13/include
 LIBS += C:/OpenCV/2.4.13_SOURCES/lib/*.dll.a
 
+SOURCES += \
+    main.cpp
+
 
