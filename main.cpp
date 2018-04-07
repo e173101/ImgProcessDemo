@@ -1,15 +1,16 @@
+/*
+ * main.cpp Demo for img process using OpenCV and Qt
+ * This program do the "function" to all the .jpg file in inputPath
+ * Lai Yongtian <lai@atian.me> 2018-4-5
+ *
+ */
+
 #include <QCoreApplication>
 #include <QtCore>
-
-
-//main.cpp Demo for img process using OpenCV and Qt
-//Lai Yongtian <lai@atian.me> 2018-4-5
 
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
-
-#include "../PhoneHackCV/jumponejump.h"
 
 #define inputPath "C:/Users/Public/Pictures/inputImage/"
 #define outputPath "C:/Users/Public/Pictures/outputImage/"
